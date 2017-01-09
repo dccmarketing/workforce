@@ -1,0 +1,18 @@
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+
+	&:active,
+	&:hover {
+		color: $color__link-hover;
+	}
+
+	&:focus {
+		color 			: $color__link-hover;
+		outline-color 	: $color__outline;
+	}
+
+}

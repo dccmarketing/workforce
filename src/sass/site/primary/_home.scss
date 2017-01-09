@@ -1,0 +1,50 @@
+.home {
+
+	.home-block-icon {
+		color 		: $ltgreen;
+		font-size	: 3.5em;
+		margin 		: 0;
+		transition 	: $trans__default;
+
+		&:hover {
+			color: $darkgreen;
+		}
+	}
+
+	.block-home-img {
+		@include tablet-portrait-up {
+			background-attachment 	: fixed;
+			background-position 	: center center;
+			background-repeat 		: no-repeat;
+			background-size 		: cover;
+			height 					: 300px;
+			width 					: 100%;
+		}
+	}
+
+	.blocks {
+		margin 		: 1.5em auto;
+		max-width 	: $size__max-width;
+		width 		: 100%;
+		
+		&.section-0 {
+			font-size 	: 1.25em;
+			padding 	: 1em;
+			text-align 	: center;
+
+			@include laptop-up {
+				padding-left 	: 0;
+				padding-right 	: 0;
+			}
+		}
+	}
+	
+	.entry-content {
+		font-size: 0.85em;
+	}
+	
+	section {
+		div {
+		}
+	}
+}

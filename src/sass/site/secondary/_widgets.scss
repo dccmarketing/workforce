@@ -1,0 +1,61 @@
+.widget-area {
+	float 		: left;
+	overflow 	: auto;
+	padding 	: 1em;
+	width 		: 100%;
+
+	@include tablet-portrait-up {
+		float: right;
+		width: 27.5%;
+
+		&.sidebar-content {
+			float 	: left;
+			margin 	: 0 0 0 2.5%;
+		}
+	}
+}
+
+.widget {
+	margin: 0 0 1.5em;
+
+	/* Make sure select elements fit in widgets */
+	select {
+		max-width: 100%;
+	}
+}
+
+.widget-title {
+	margin-bottom	: 0;
+	position 		: relative;
+	text-align 		: center;
+	text-transform	: uppercase;
+	
+	&:before {
+		border-top 	: 2px solid $yellow;
+		content		: "";
+		left 		: 0;
+		margin 		: 0 auto;
+		position	: absolute;
+		top 		: calc( 50% - 2px );
+		width 		: 100%;
+		z-index 	: -1;
+	}
+}
+
+.widget-title-text {
+	background-color: $light;
+	color 			: $darkgreen;
+	padding 		: 0 0.25em;
+}
+
+/* Search widget */
+.widget_search {
+
+	.search-submit {
+		display: none;
+	}
+
+	.search-field {
+		width: 98.5%;
+	}
+}

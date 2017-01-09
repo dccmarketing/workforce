@@ -1,0 +1,43 @@
+/**
+ * Current Menu Items.
+ */
+.current-primary-menu-item {
+	transition: $trans__default;
+}
+
+.current-primary-menu-item-link {
+	background-color: $light;
+	color			: $darkgreen;
+
+	&:active,
+	&:hover,
+	&:visited {
+		color: $darkgreen;
+	}
+}
+
+
+/**
+ * Current Menu Items.
+ */
+// .current-menu-item,
+// .current-menu-parent,
+// .current_page_item,
+// .current_page_ancestor {
+// 
+// 	@include tablet-portrait-up {
+// 		background-color: $darkmed;
+// 	}
+// 
+// 	> a { // menu item link directly under the above current class menu items and below.
+// 		color: $dark;
+// 	}
+// 
+// 	&:hover,
+// 	&.focus {
+// 
+// 		> a {
+// 			color: $dark;
+// 		}
+// 	}
+// }

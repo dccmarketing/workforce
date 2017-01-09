@@ -1,0 +1,38 @@
+.site-header {
+	// DO NOT ADD PADDING HERE! - it screws up menus
+	background-color: $light;
+	overflow 		: auto;
+	
+	@include tablet-portrait-up {
+		overflow 	: visible;
+	}
+}
+
+.site-branding {
+	align-items : center;
+	display 	: flex;
+	flex-wrap 	: wrap;
+	margin		: 0 auto;
+}
+
+.site-title {
+	text-align	: center;
+	width 		: 100%;
+
+	@include tablet-portrait-up {
+		padding: 0 1em;
+	}
+
+	a {
+		color 			: $darkmed;
+		text-decoration : none;
+	}
+}
+
+.site-description {
+	font-size 		: 1.5em;
+	position 		: relative;
+	text-align		: center;
+	text-transform 	: uppercase;
+}
+

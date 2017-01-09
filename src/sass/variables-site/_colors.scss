@@ -1,0 +1,34 @@
+$light		: #fff;
+$ltgray 	: #f7f7f7;
+$ltmed 		: #ddd;
+$med		: #ccc;
+$darkmed 	: darken( $med, 25% );
+$darkermed 	: darken( $med, 50% );
+$dark		: #020202;
+$darkdark 	: darken( $dark, 25% );
+
+$ltyellow 	: #fff9c0; // bg for inserted text
+$tealblue 	: #21759b; // text color for a11y focus
+
+$ltshadow	: rgba(0, 0, 0, 0.05);
+$medshadow	: rgba(255, 255, 255, 0.5);
+$darkshadow	: rgba(255, 255, 255, 0.8);
+
+$transdark 	: rgba( $dark, 0.8 );
+
+$errorred 	: #dc3232;
+
+
+$darkgreen 	: #33735b;
+$ltgreen 	: #629080;
+$mintgreen 	: #88ab9f;
+$yellow 	: #ffcf46;
+$darkred 	: #a00;
+$red 		: red;
+
+// Usage
+$color__outline 			: $med;
+$color__link				: $darkgreen;
+$color__link-visited		: $darkgreen;
+$color__link-hover			: $dark;
+$bg__tablet-menu			: $mintgreen;
